@@ -1,0 +1,58 @@
+<!HTML>
+
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+</script>
+
+<!CSS>
+
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+<!JS>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: {
+      lat: 20.5937,
+      lng: 78.9629
+    }
+  });
+  var geocoder = new google.maps.Geocoder();
+  geocodeAddress(geocoder, map);
+}
+
+function geocodeAddress(geocoder, resultsMap) {
+  var address = ["Agra","Ahmadabad","Ahmadnagar","Bandipore","Bengaluru","Bhilwara","Bidar","Chandigarh","Chengalpattu","Chennai","Coimbatore","Dehradun","Dindigul","East Godavari","Ernakulam","Erode","Gandhinagar","Gautam Buddha Nagar","Guntur","Gurugram","Hyderabad","Indore","Jaipur","Jammu","Jodhpur","Kannur","Karur","Kasaragod","Khordha","Krishna","Leh","Lucknow","Madurai","Malappuram","Meerut","Morena","Mumbai","Mysuru","Nagpur","Namakkal","Prakasam","Pune","Rajkot","Ranga Reddy","S.A.S. Nagar","S.P.S. Nellore","Saharanpur","Sangli","Shahid Bhagat Singh Nagar","South Delhi","Srinagar","Surat","Thane","Theni","Thiruvarur","Thrissur","Tirunelveli","Tirupathur","Tonk","Viluppuram","Virudhunagar","Visakhapatnam","Warangal Urban","West Godavari","Y.S.R."];
+  for (i=0;i<address.length;i++)
+  {
+  (function (i) {
+    setTimeout(function () {
+     }, 3000);
+    })(i);
+  geocoder.geocode
+  (
+  {'address': address[i]}, 
+  function(results, status) 
+  {
+    if (status === 'OK') {
+      resultsMap.setCenter(results[0].geometry.location);
+      var marker = new google.maps.Marker({
+        map: resultsMap,
+        position: results[0].geometry.location
+      });
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+  }
+}

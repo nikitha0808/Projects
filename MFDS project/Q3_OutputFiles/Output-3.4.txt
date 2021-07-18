@@ -1,0 +1,76 @@
+The hotspots in india are:
+
+Agra-Uttar Pradesh
+Ahmadabad-Gujarat
+Ahmadnagar-Maharashtra
+Bengaluru-Karnataka
+Bhilwara-Rajasthan
+Bhopal-Madhya Pradesh
+Bidar-Karnataka
+Chandigarh-Chandigarh
+Chengalpattu-Tamil Nadu
+Chennai-Tamil Nadu
+Chittoor-Andhra Pradesh
+Churu-Rajasthan
+Coimbatore-Tamil Nadu
+Dakshina Kannada-Karnataka
+Dehradun-Uttarakhand
+Dindigul-Tamil Nadu
+East Godavari-Andhra Pradesh
+Ernakulam-Kerala
+Erode-Tamil Nadu
+Evacuees-Rajasthan
+Faridabad-Haryana
+Gandhinagar-Gujarat
+Gautam Buddha Nagar-Uttar Pradesh
+Ghaziabad-Uttar Pradesh
+Guntur-Andhra Pradesh
+Gurugram-Haryana
+Hyderabad-Telangana
+Indore-Madhya Pradesh
+Jaipur-Rajasthan
+Jammu-Jammu and Kashmir
+Jhunjhunu-Rajasthan
+Jodhpur-Rajasthan
+Kannur-Kerala
+Karur-Tamil Nadu
+Kasaragod-Kerala
+Khordha-Odisha
+Krishna-Andhra Pradesh
+Leh-Ladakh
+Lucknow-Uttar Pradesh
+Madurai-Tamil Nadu
+Malappuram-Kerala
+Meerut-Uttar Pradesh
+Morena-Madhya Pradesh
+Mumbai-Maharashtra
+Mysuru-Karnataka
+Nagpur-Maharashtra
+Namakkal-Tamil Nadu
+Palwal-Haryana
+Prakasam-Andhra Pradesh
+Pune-Maharashtra
+Rajkot-Gujarat
+Ranipet-Tamil Nadu
+S.A.S. Nagar-Punjab
+S.P.S. Nellore-Andhra Pradesh
+Saharanpur-Uttar Pradesh
+Sangli-Maharashtra
+Shahid Bhagat Singh Nagar-Punjab
+South Delhi-Delhi
+Srinagar-Jammu and Kashmir
+Surat-Gujarat
+Thane-Maharashtra
+Theni-Tamil Nadu
+Thiruvallur-Tamil Nadu
+Thiruvarur-Tamil Nadu
+Thrissur-Kerala
+Tiruchirappalli-Tamil Nadu
+Tirunelveli-Tamil Nadu
+Tirupathur-Tamil Nadu
+Tonk-Rajasthan
+Viluppuram-Tamil Nadu
+Virudhunagar-Tamil Nadu
+Visakhapatnam-Andhra Pradesh
+West Godavari-Andhra Pradesh
+Y.S.R.-Andhra Pradesh
